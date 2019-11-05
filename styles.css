@@ -38,25 +38,37 @@ header{
     justify-content: center;
 }
 
+.header{
+    display: flex;
+    
+}
 header #barra{
     font-size: 70px;
     color: white;
     text-align: center;
+
+    
+    margin-left:600px;
 }
+
+header .barra-container h2{
+    color: #FFFF;
+    font-size:30px;
+} 
 
 header #barra a{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
 
-    padding-left:30px;
+    padding-left:10px;
     margin-right:10px;
 }
 
 header img{
     width: 100vw;
     position: relative;
-    bottom: 80px;
+    bottom: 90px;
     filter: brightness(45%); 
     z-index: 1;
 }
@@ -65,10 +77,8 @@ header img{
     width: 100vw;
     display: flex;
     flex-direction: column;
-    height: 500px;
-    background:black;
-
-    margin-top: 100px;
+    height: 300px;
+    margin-top: 20px;
 
 }
 
@@ -126,12 +136,13 @@ article {
 }
 
 #info h3 {
-    align-items: center;
+    
     height: 300px;
     text-align: center;
     font-size: 50px;
     margin: 0 auto;
-
+    
+    padding-top: 100px;
     color:white;
 
 }
@@ -143,28 +154,29 @@ footer{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;  
+
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
 }
 
 footer #footer1{
     display:flex;
     flex-direction:column;
-
     margin-right:60px;  
-
-    font-size: 30px;
-
+    padding-top: 10px;
+    font-size: 20px;
     color: white;
 }
 
-footer #footer2{
+footer #footer2 {
     display:flex;
     flex-direction:column;
-
-    font-size: 30px;
+    padding-top: 10px;
+    font-size: 20px;
     color: white;
 }
 
-footer #footer2 p{
+footer #footer2 p {
     display: flex;
     flex-direction: row;
 }

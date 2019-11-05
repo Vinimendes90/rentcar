@@ -1,0 +1,158 @@
+body, h1, p, a, img, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFFF;;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 148px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.79);
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top:50px;
+}
+
+header a{
+    font-size: 30px;
+    color: white;
+}
+
+article #contato{
+    width:100%;
+    height:233px;
+
+    background:#2B4558;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+article #contato #contato1{
+    margin: 0 auto;
+    font-size: 23px;
+    color: white;
+}
+
+article section form{
+
+    width:978px;
+    height:719px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+article section form p{
+    display: flex;
+    flex-direction: column;
+}
+
+article section form p label{
+    font-size:30px;
+}
+
+article section form p label span{
+    color: red;
+}
+
+article section form p input{
+    width:895px;
+    height: 60px;
+     
+    font-size: 30px;
+    background:rgba(196, 196, 196, 0.37);
+
+    border:none;
+}
+
+article section form p textarea{
+    width:895px;
+    height: 180px;
+
+    font-size:30px;
+    background:rgba(196, 196, 196, 0.37);
+
+    border:none;
+}
+
+article section form #botao{
+    width: 120px;
+    height: 45px;
+
+    background:#2B4558;
+    color: #FFFF;
+
+    font-size:24px;
+    border:none;
+
+    cursor:pointer;
+}
+
+
+footer{
+    background: #304A5D;;
+    height: 300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+
+
+}
+
+footer #footer1{
+    display:flex;
+    flex-direction:column;
+
+    margin-right:60px;  
+
+    font-size: 30px;
+
+    color: white;
+}
+
+footer #footer2{
+    display:flex;
+    flex-direction:column;
+
+    font-size: 30px;
+    color: white;
+}
+
+footer #footer2 p{
+    display: flex;
+    flex-direction: row;
+}
+
+footer #footer2 p img{
+    padding-right: 10px;
+}
+
+

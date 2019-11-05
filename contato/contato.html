@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Carros</title>
+    <link rel= "stylesheet" href="styles.css" />
+
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <header>
+  <nav>
+      <a href="/">HOME</a>
+      <a href="../index.html">SOBRE</a>
+      <a href="../catalogo/catalogo.html">CATÁLOGO</a>
+      <a href="../contato/contato.html">CONTATO</a>    
+  </nav>   
+    </header>
+
+    <article>
+        <section id="contato">
+            <div id="contato1">
+            <h5>CONTATO</h5>
+         <p>Para qualquer assunto entre em contato conosco, 
+             por telefone, chat do próprio site ou pelo formulário abaixo.
+            </p>
+            <br/>
+            <p>Será um prazer atendê-lo!</p>
+        </div>
+        </section>
+        <section>
+            <form>
+            <p>
+                <label for="nome"><span>*</span>Nome Completo</label>
+                <input type="text" id="nomeid" required="required" name="Nome" />              
+            </p>
+            
+            <p>
+                <label for="email"><span>*</span>E-mail</label>
+                <input type="email" id="emailid" required="required" />
+                 
+            </p>
+
+            <p>
+                <label for="email">Celular</label>
+                <input type="text" name="Celular" />
+            </p>
+
+            <p>
+                <label for="email">Assunto</label>
+                <input type="text" name="ASSUNTO" />           
+            </p>
+
+            <p>
+                    <textarea placeholder="Mensagem"></textarea>   
+            </p>
+
+            <input id="botao" type="submit" onclick="Enviar()" value="ENVIAR" />
+          </form>
+        </section>
+    </article>
+ 
+    <footer>              
+            <div id="footer1">
+            <h4>Navegação Rápida</h4>
+                <ul>
+                    <li>Home</li>
+                    <li>Sobre</li>
+                    <li>Catálogo</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+    
+            <div id="footer2">
+                <h4>Fale Conosco</h4>
+                 <p>
+                     <img src="../images/email.svg"/><a>E-mail</a>
+                 </p>
+                 
+                 <p>
+                    <img src="../images/Phone.svg" /><a>21 3568-0200</a>
+                 </p>
+                
+            </div>
+    
+            <div>
+    
+            </div>
+            </footer>
+</body>
+</html>

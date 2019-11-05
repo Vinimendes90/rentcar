@@ -1,0 +1,164 @@
+body, h1, p, a, img, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFFF;;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 148px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.79);
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top:50px;
+}
+
+header a{
+    font-size: 30px;
+    color: white;
+}
+
+#header-block{
+    width:100%;
+    height:40px;
+    background:rgba(0, 0, 0, 0.56);
+}
+
+#header-block1{
+    width:100%;
+    height:20px;
+    background:rgba(0, 0, 0, 0.56);
+
+    margin-top: 5px;
+}
+
+#img-header img{
+    width: 100%;
+    filter: brightness(60%);
+}
+
+#img-header p{
+    font-size: 70px;
+
+    color: white;
+    position: relative;
+    bottom: 500px;
+
+    width: 1300px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-top: -200px;
+    margin-bottom: 300px;
+    
+}
+
+article section{
+    display: flex;
+    justify-content: center;  
+}
+
+.catalogo-item {
+    margin-bottom: -10px;
+
+    border: 3px solid black;
+}
+
+.catalogo-item img {
+    width: 600px;
+    height: 400px;
+    filter:brightness(40%);
+    
+}
+
+.catalogo-item a{
+    text-align: center;
+
+    font-size: 50px;
+    position:relative;
+    
+    bottom: 250px;
+    left: 100px;
+
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background: #304A5D;;
+    height: 300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+
+
+}
+
+footer #footer1{
+    display:flex;
+    flex-direction:column;
+
+    margin-right:60px;  
+
+    font-size: 30px;
+
+    color: white;
+}
+
+footer #footer2{
+    display:flex;
+    flex-direction:column;
+
+    font-size: 30px;
+    color: white;
+}
+
+footer #footer2 p{
+    display: flex;
+    flex-direction: row;
+}
+
+footer #footer2 p img{
+    padding-right: 10px;
+}
+
+

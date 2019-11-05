@@ -1,0 +1,172 @@
+
+body, h1, p, a, img, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFFF;;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 148px;
+    width: 100%;
+    background: black;
+
+}
+
+header nav{
+    display: flex;
+
+    padding-top:100px;
+    padding-left:1000px;
+}
+
+header a{
+    font-size: 30px;
+    color: white;
+    padding-right:30px;
+}
+
+#secao-img{
+    display: flex;
+}
+
+div #img-header1{
+
+    width: 900px;
+    height: 491px;
+
+    background: yellow;
+}
+
+div #img-header2{
+    
+    width: 900px;
+    height: 491px;
+
+    background: green;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    background:white;
+
+    margin-top: 150px;
+    height: 1500px;
+}
+
+article section{
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+
+    margin: 0 auto;
+}
+
+article section p{
+    font-size: 30px;
+}
+
+article section h2{
+    text-align: end;
+
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+article #secao-mod{
+    margin-top:200px;
+}
+
+article #secao-mod h3{
+    font-size: 60px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+
+#imgs-car{
+    display: flex;
+    justify-content: center;
+}
+
+#imgs-car .img-car1{
+    width: 736px;
+    height: 491px;
+
+    background: red;
+}
+
+#imgs-car .img-car2{
+    width: 736px;
+    height: 491px;
+
+    background: gray;
+}
+
+
+
+
+
+
+
+footer{
+    background: #304A5D;;
+    height: 300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+
+
+}
+
+footer #footer1{
+    display:flex;
+    flex-direction:column;
+
+    margin-right:60px;  
+
+    font-size: 30px;
+
+    color: white;
+}
+
+footer #footer2{
+    display:flex;
+    flex-direction:column;
+
+    font-size: 30px;
+    color: white;
+}
+
+footer #footer2 p{
+    display: flex;
+    flex-direction: row;
+}
+
+footer #footer2 p img{
+    padding-right: 10px;
+}
+
+
